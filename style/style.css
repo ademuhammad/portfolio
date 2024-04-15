@@ -401,6 +401,13 @@
   .section-form {
     padding: 20px;
   }
+  .text-web1{ 
+    font-size: 32px;
+   }
+   .section-withme {
+    padding: 20px;
+   }
+
 }
 
 /* Tablet Styles */
@@ -509,4 +516,26 @@
         max-width: 100%;
         height: auto;
     }
+}
+.section-withme {
+  display: flex;
+  padding: 100px 120px;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 20px; */
+  background-color: #fff;
+  /* color: #fff; */
+}
+.text-web{ 
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #01141a;
+  margin-top: 10px;
+}
+.text-web1{ 
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  color: #01141a;
 }
